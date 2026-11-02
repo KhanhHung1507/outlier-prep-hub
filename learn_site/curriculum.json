@@ -1,0 +1,61 @@
+{
+  "overview": "28‑day intensive RLHF evaluation training for Outlier AI (B2 → C1). 2 h/day.",
+  "weeks": [
+    {
+      "week": 1,
+      "objective": "Parse dense guidelines & multi‑constraint prompts at speed.",
+      "metrics": "≤ 30 s to extract all explicit/implicit constraints; 90 % accuracy in constraint‑identification quizzes.",
+      "days": [
+        {"day":1,"title":"Guideline taxonomy & note‑taking system","activities":"Read 2 complex Outlier prompts; annotate explicit, implicit, negative constraints; create a master checklist. 10‑min timed extraction practice."},
+        {"day":2,"title":"Tone & persona mapping","activities":"Analyze 3 model responses for tone/persona compliance; build a tone‑lexicon table. 15‑min speed drill."},
+        {"day":3,"title":"Verbosity & redundancy detection","activities":"Compare Model A vs B on word‑count and redundancy; mark violations. 20‑min timed task."},
+        {"day":4,"title":"Constraint hierarchy & conflict resolution","activities":"Case study: overlapping constraints. Write a short hierarchy diagram. 15‑min."},
+        {"day":5,"title":"Micro‑parsing sprint","activities":"10 prompts, 30‑s per prompt to list all constraints. Record time & errors. 30‑min."},
+        {"day":6,"title":"Weekend Review & Quiz","activities":"Mixed‑question quiz (20 items) on weeks 1 concepts; review errors. 1 h."},
+        {"day":7,"title":"Reflection & Personal Cheat‑Sheet","activities":"Summarize personal parsing shortcuts; create a one‑page cheat‑sheet. 1 h."}
+      ]
+    },
+    {
+      "week": 2,
+      "objective": "Detect hallucinations, logical fallacies, and partial constraint breaches.",
+      "metrics": "≥ 85 % correct identification of hallucinated facts; ≤ 5 s to flag a logical inconsistency.",
+      "days": [
+        {"day":8,"title":"Fact‑checking workflow","activities":"Use a 3‑step verification template on 5 statements. 20‑min."},
+        {"day":9,"title":"Hallucination taxonomy","activities":"Study 4 hallucination types; annotate examples from Model A/B. 25‑min."},
+        {"day":10,"title":"Logical chain validation","activities":"Map reasoning chain of a model answer; spot missing premise. 30‑min."},
+        {"day":11,"title":"Safety & toxicity boundaries","activities":"Scan 3 responses for prohibited content; label severity. 20‑min."},
+        {"day":12,"title":"Partial‑constraint spotting","activities":"Identify 2‑sentence responses that meet some constraints but violate others. 25‑min."},
+        {"day":13,"title":"Weekend Mock Evaluation","activities":"Full evaluation (prompt → two responses → justification) under 30 min. Record score. 1 h."},
+        {"day":14,"title":"Debrief & Error Log","activities":"Write a 300‑word error‑analysis report; update personal log. 45 min."}
+      ]
+    },
+    {
+      "week": 3,
+      "objective": "Write C1‑level CEE justifications that are concise, evidence‑rich, and persuasive.",
+      "metrics": "Score ≥ 4.5/5 on the Outlier rubric for clarity, evidence, and style.",
+      "days": [
+        {"day":15,"title":"CEE framework deep dive","activities":"Study 5 exemplar justifications; annotate claim, evidence, explanation. 30‑min."},
+        {"day":16,"title":"Advanced evaluative vocabulary","activities":"Learn 20 C1‑level adjectives/adverbs (e.g., ‘substantially’, ‘incongruous’). Flashcard drill 15‑min."},
+        {"day":17,"title":"Template 1 – Hallucination justification","activities":"Apply template to a new hallucination case; 10‑min draft, 5‑min peer‑review simulation."},
+        {"day":18,"title":"Template 2 – Instruction‑drop justification","activities":"Write using Claim‑Evidence‑Explanation; focus on linking to explicit constraint. 15‑min."},
+        {"day":19,"title":"Template 3 – Verbosity/Redundancy justification","activities":"Craft concise justification; limit to 100 words. 20‑min."},
+        {"day":20,"title":"Speed‑write sprint","activities":"5 mini‑tasks, 7 min each, produce full CEE justification. 35‑min total."},
+        {"day":21,"title":"Weekend Review & Rubric Calibration","activities":"Grade 10 past justifications against official rubric; identify 3 improvement patterns. 1 h."}
+      ]
+    },
+    {
+      "week": 4,
+      "objective": "Execute full assessment workflow under test conditions and neutralize Outlier traps.",
+      "metrics": "Complete ≥ 3 full mock assessments within 30 min each, with ≥ 85 % rubric score; zero trap‑failures.",
+      "days": [
+        {"day":22,"title":"Timed full mock #1","activities":"30‑min timer: parse prompt, analyze two responses, write justification. Record time & score."},
+        {"day":23,"title":"Trap analysis – hidden constraints","activities":"Study 5 “gotcha” prompts; list hidden cues; create a checklist. 30‑min."},
+        {"day":24,"title":"Timed full mock #2 (different domain)","activities":"Same workflow on a technical prompt (e.g., code explanation). 30‑min."},
+        {"day":25,"title":"Checklist & cheat‑sheet finalization","activities":"Produce printable one‑page sheet (key vocab, templates, trap alerts). 45‑min."},
+        {"day":26,"title":"Timed full mock #3 – stress test","activities":"30‑min under simulated exam environment (no notes). 30‑min."},
+        {"day":27,"title":"Performance review & gap analysis","activities":"Compare scores of three mocks; identify 2 recurring weaknesses; plan corrective drills."},
+        {"day":28,"title":"Pre‑exam mindset & final run‑through","activities":"Light 20‑min mock, followed by confidence affirmation writing. 30‑min."}
+      ]
+    }
+  ]
+}
